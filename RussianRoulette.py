@@ -68,7 +68,7 @@ while Death == False:
         time.sleep(2)
         print("Score:",Score)
             
-    elif Guess == Bullet or Countdown == 0:
+    elif Guess == Bullet:
         Score == 0
         print("You pull the trigger...")
         time.sleep(2)
